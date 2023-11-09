@@ -1,0 +1,38 @@
+.tamanho-slider {
+  width: 800px;
+  height: 500px;
+  @media (max-width: 769px) {
+    width: 600px;
+    height: 400px;
+  }
+  @media (max-width: 426px) {
+    width: 380px;
+    height: 250px;
+  }
+  .carousel-inner {
+    box-shadow: inset 0px 15px #000;
+    .img-slider {
+      width: 900px;
+      height: 500px;
+      @media (max-width: 769px) {
+        width: 600px;
+        height: 400px;
+      }
+      @media (max-width: 426px) {
+        width: 380px;
+        height: 250px;
+      }
+    }
+  }
+}
+.tamanho-card {
+  width: 300px;
+  height: 200px;
+  .carousel-inner {
+    box-shadow: inset 0px 15px #000;
+    .img-card {
+      width: 300px;
+      height: 200px;
+    }
+  }
+}

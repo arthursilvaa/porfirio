@@ -1,0 +1,26 @@
+@import "./variables.scss";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  position: relative;
+
+  .whats-link {
+    font-size: 40px;
+    color: #008000;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    transition: 0.3s;
+    &:hover {
+      color: #008000;
+      transform: scale(1.04);
+    }
+    @media (max-width: 376px) {
+      right: 20px;
+    }
+  }
+}

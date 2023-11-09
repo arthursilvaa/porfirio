@@ -1,0 +1,38 @@
+.home-banner {
+  width: 100%;
+  .img-banner {
+    height: 500px;
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10px;
+    @media (max-width: 426px) {
+      height: 300px;
+    }
+    @media (max-width: 376px) {
+      height: 200px;
+    }
+    @media (max-width: 326px) {
+      height: 150px;
+    }
+  }
+}
+.home-title {
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  border-bottom: 3px solid #000;
+  max-width: 400px;
+  padding-bottom: 80px;
+  @media (max-width: 426px) {
+    font-size: 30px;
+    width: 170px;
+  }
+}
+.home-destaque {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 60px 0;
+}

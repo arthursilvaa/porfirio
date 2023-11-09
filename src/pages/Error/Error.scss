@@ -1,0 +1,30 @@
+@import "../../variables.scss";
+
+.box-erro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  .error {
+    font-size: 100px;
+    color: #ff0000;
+    font-weight: bold;
+    @media (max-width: 425px) {
+      font-size: 70px;
+    }
+  }
+  .erro-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: $terciary-color;
+    @media (max-width: 425px) {
+      font-size: 25px;
+    }
+    &:hover {
+      color: $terciary-color-hover;
+    }
+  }
+}
