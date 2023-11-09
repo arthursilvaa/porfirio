@@ -23,7 +23,7 @@ const Banner = () => {
       </div>
       <div className="phones">
         <a
-          href="https://wa.me/message/OGIV5L77E2BJP1"
+          href="https://wa.me/message/VK6HGO6NFIDPH1"
           className="whatsapp"
           target="_blank"
         >
@@ -31,9 +31,9 @@ const Banner = () => {
           <p>(11) 98642-0834</p>
         </a>
 
-        <a target="_blank" href="tel: 11 9 8642-0834">
+        <a target="_blank" href="tel: 11 2605-0052">
           <FaPhone color="#00ff" />
-          <p>(11) 98642-0834</p>
+          <p>(11) 2605-0052</p>
         </a>
       </div>
       <div className="social">

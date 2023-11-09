@@ -19,13 +19,13 @@ const Contato = () => {
       <div className="contato-links">
         <div className="contato-phone">
           <h3>Telefones</h3>
-          <a href="https://wa.me/message/OGIV5L77E2BJP1" target="_blank">
+          <a href="https://wa.me/message/VK6HGO6NFIDPH1" target="_blank">
             <FaWhatsapp color="#008800" />
-            (11) 98642-0834
+            (11) 9 8642-0834 
           </a>
-          <a target="_blank" href="tel: 11 9 8642-0834">
+          <a target="_blank" href="tel: 11 2605-0052">
             <FaPhone color="#00ff" />
-            <p>(11) 98642-0834</p>
+            <p>(11) 2605-0052</p>
           </a>
         </div>
         <div className="contato-adrress">
